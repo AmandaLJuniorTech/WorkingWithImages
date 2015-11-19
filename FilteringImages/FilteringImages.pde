@@ -8,5 +8,5 @@ void setup(){
 void draw(){
   background(255);
   image(hungry, width/2, height/2);
-  filter(GRAY);
+  filter(INVERT);
 }
