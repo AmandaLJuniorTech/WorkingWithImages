@@ -8,4 +8,5 @@ void setup(){
 void draw(){
   background(255);
   image(hungry, width/2, height/2);
+  filter(THRESHOLD,0.9);
 }
