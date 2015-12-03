@@ -14,5 +14,4 @@ void draw() {
   //draw both images
   image(amigos,0,0); 
   image(beauty,0,0);
-
 }
